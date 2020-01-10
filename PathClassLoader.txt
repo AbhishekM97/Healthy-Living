@@ -1,0 +1,612 @@
+8 Jan 2020 17:29:57 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 17:29:57 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 17:29:57 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:30:11 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 17:30:11 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:30:11 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:30:11 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:30:11 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 17:30:11 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:30:11 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:30:11 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:30:11 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:30:11 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:30:11 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 17:30:11 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:30:11 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:30:11 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:11 GMT: PathClassLoader.findClass(Main) called
+8 Jan 2020 17:30:11 GMT: findResource(Main.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:30:37 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 17:30:37 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 17:30:37 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+8 Jan 2020 17:31:02 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 17:31:02 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 17:31:02 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:31:03 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 17:31:03 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:31:03 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:31:03 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:31:03 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 17:31:03 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:31:03 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:31:03 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:31:03 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:31:03 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:31:03 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 17:31:03 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 17:31:03 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 17:31:03 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:03 GMT: PathClassLoader.findClass(Main) called
+8 Jan 2020 17:31:03 GMT: findResource(Main.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 17:31:05 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 17:31:05 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 17:31:05 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+8 Jan 2020 21:03:06 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 21:03:06 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 21:03:06 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:09 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:03:09 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:09 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:09 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:09 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:03:09 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:09 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:09 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:09 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:09 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:09 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:03:09 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:09 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:09 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:09 GMT: PathClassLoader.findClass(Main) called
+8 Jan 2020 21:03:09 GMT: findResource(Main.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:11 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 21:03:11 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 21:03:11 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:24 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:03:24 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:24 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:24 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:24 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:03:24 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:24 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:24 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:24 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:24 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:24 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:03:24 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:03:24 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:03:24 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:24 GMT: PathClassLoader.findClass(Main) called
+8 Jan 2020 21:03:24 GMT: findResource(Main.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:03:25 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 21:03:25 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 21:03:25 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+8 Jan 2020 21:12:39 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 21:12:39 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 21:12:39 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:12:41 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:12:41 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:12:41 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:12:41 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:12:41 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:12:41 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:12:41 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:12:41 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:12:41 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:12:41 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:12:41 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:12:41 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:12:41 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:12:41 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:41 GMT: PathClassLoader.findClass(Main) called
+8 Jan 2020 21:12:41 GMT: findResource(Main.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:12:43 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 21:12:43 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 21:12:43 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+8 Jan 2020 21:44:40 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 21:44:40 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 21:44:40 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:44:42 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:44:42 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:44:42 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:44:42 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:44:42 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:44:42 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:44:42 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:44:42 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:44:42 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:44:42 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:44:42 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(java.lang.edu) called
+8 Jan 2020 21:44:42 GMT: findResource(java/lang/edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu) called
+8 Jan 2020 21:44:42 GMT: findResource(edu.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(edu.rice.cs.drjava.model.compiler) called
+8 Jan 2020 21:44:42 GMT: findResource(edu/rice/cs/drjava/model/compiler.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:42 GMT: PathClassLoader.findClass(Main) called
+8 Jan 2020 21:44:42 GMT: findResource(Main.class) called; _path is [, , /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject, /Users/abhishekmaan/Downloads/drjava-gmu.jar]
+8 Jan 2020 21:44:51 GMT: Log 'PathClassLoader.txt' opened: 8 Jan 2020 21:44:51 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+8 Jan 2020 21:44:51 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
+10 Jan 2020 17:25:41 GMT: Log 'PathClassLoader.txt' opened: 10 Jan 2020 17:25:41 GMT with name /Users/abhishekmaan/Documents/George Mason University/Classes/CS 211 (2)/FinalProject/PathClassLoader.txt
+10 Jan 2020 17:25:41 GMT: Constructing PathClassLoader with parent sun.misc.Launcher$AppClassLoader@18b4aac2 and path '[/Users/abhishekmaan/Downloads/drjava-gmu.jar]'
