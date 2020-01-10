@@ -1,4 +1,4 @@
-package App_Health;
+
 
 import java.util.Scanner;
 import java.util.*;
@@ -16,34 +16,53 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class Main{
-  public static void main(String args[]){
-   
-   try {
+  public static void main(String args[]) throws IOException{
     
-    ArrayList<String> exercises = new ArrayList<String>();
+    HashMap<String, ArrayList<String>> exercises = new HashMap<String, ArrayList<String>>();
+    ArrayList<String> muscleGroups = new ArrayList<String>();
     Document doc = Jsoup.connect("https://www.jefit.com/exercises/").userAgent("mozilla/17.0").get();
     Elements temp = doc.select("a.exerciseblueButton");
     
-    int i = 0; 
-    for(Element exerciseList:temp)
+    for(Element muscleList:temp)
     {
-     i++;
-     exercises.add(exerciseList.getElementsByTag("a").first().text());
+     muscleGroups.add(muscleList.getElementsByTag("a").first().text());
      //System.out.println(i+ " " + exerciseList.getElementsByTag("a").first().text() );
     }
-    System.out.println(exercises.toString());
+    muscleGroups.remove("View All Exercises");
+    Collections.sort(muscleGroups);
+    
+    System.out.println(muscleGroups.toString());
+
+    for(int i = 0; i<11; ++i)
+    {
+      String Url = "https://www.jefit.com/exercises/bodypart.php?id=" + i + "&exercises="+muscleGroups.get(i);
+      ArrayList<String> tempArr = new ArrayList<String>();
+      doc = Jsoup.connect(Url).userAgent("mozilla/17.0").get();
+      temp = doc.select("h4 a");
+     
+      for (Element exerciseList: temp)
+      {
+        tempArr.add(exerciseList.getElementsByTag("a").first().text());
+      }
+      /* Sucessfully scraped exercises to match the muscle groups that they work from jefit.com
+       * Next step is to put the exercises in the hashmap according to the muscle groups they work as the keys.
+       * From there once users give certain input they should be presented with the exercises array which was scraped.
+       * Then begins the steps to work on the users input to add exercises to their exerciseGuide.
+      */
+      
+      exercises.put(muscleGroups.get(i), tempArr);
+     // System.out.println(tempArr.toString());
+    }
+    
+    
+    
+
+   System.exit(0);
     /*
      * Scraped muscle groups and stored into exercises array.
      * System.exit(0);
      */
     
-   }
-   
-   catch (IOException e) {
-    //TODO Auto-generated catch block
-    e.printStackTrace();
-   }
-   
     //Decleration of essential variables to create objects of person, NutritionGuide and FitnessPlan
     
     Scanner sc = new Scanner(System.in);
