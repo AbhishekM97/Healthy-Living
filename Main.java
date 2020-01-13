@@ -1,13 +1,12 @@
 
-
 import java.util.Scanner;
 import java.util.*;
 
-/*Try to implement API requests to a exercise and nutrition database so user can select different exercises and
- *foods to eat. Also possible to scrape a webpage related to exercise and nutrition and store the HTML items as a list.
+/* Scraped data from jefit.com to create a exercise database for each muscle group.
+ * Users should be presented with data and be able to select and add exercises to their ExerciseGuide.
+ * 
 */
 
-//Needed to create an API request
 
 import java.io.IOException;
 import org.jsoup.Jsoup;
@@ -17,6 +16,21 @@ import org.jsoup.select.Elements;
 
 public class Main{
   public static void main(String args[]) throws IOException{
+    
+    /* Declaring the hashmap which will help in showing data to users.
+     * "musclegroups" is an arraylist of strings that are different muscle groups.
+     * Jsoup.connect allows you to create an HTML document object.
+     * Elements and doc.select allow me to select specific 'elements' or tag type from an HTML file and create 
+     * a list of "Elements".
+     * Then the program iterates through the list, grabs the text of each element and stores it in the muscleGroup
+     * ArrayList.
+     * The 'muscleGroups' Array is then sorted so the scraping of the list of exercises is in order with the muscleGroups
+     * ArrayList.
+     * Next the same process is carried out for the exercises but with an updating URL.
+     * Then the keys (muscleGroups) and values (ArrayLists of exercises for the muscle group) are added to the hashmap 
+     * "exercises".
+     */ 
+    
     
     HashMap<String, ArrayList<String>> exercises = new HashMap<String, ArrayList<String>>();
     ArrayList<String> muscleGroups = new ArrayList<String>();
@@ -44,24 +58,10 @@ public class Main{
       {
         tempArr.add(exerciseList.getElementsByTag("a").first().text());
       }
-      /* Sucessfully scraped exercises to match the muscle groups that they work from jefit.com
-       * Next step is to put the exercises in the hashmap according to the muscle groups they work as the keys.
-       * From there once users give certain input they should be presented with the exercises array which was scraped.
-       * Then begins the steps to work on the users input to add exercises to their exerciseGuide.
-      */
       
       exercises.put(muscleGroups.get(i), tempArr);
-     // System.out.println(tempArr.toString());
-    }
-    
-    
-    
 
-   System.exit(0);
-    /*
-     * Scraped muscle groups and stored into exercises array.
-     * System.exit(0);
-     */
+    }
     
     //Decleration of essential variables to create objects of person, NutritionGuide and FitnessPlan
     
@@ -69,6 +69,8 @@ public class Main{
     int age;
     int daysOfActivity;
     int kindOfWorkout;
+    double currentWeight;
+    double goalWeight;
     String activityLevel;
     String name;
     
@@ -98,13 +100,36 @@ public class Main{
       daysOfActivity = sc.nextInt();
     }
     
+    
     if(daysOfActivity > 0){
       System.out.println("What kind of exercises would you like to perform?");
-      System.out.println("Enter 1 for 'Aerobic exercises'.\nThe primary focus is to tone muscles and burn calories.");
-      System.out.println("Enter 2 for 'Anaerobic exercises'.\nThe primary focus is to build muscle and burn fat.");
+      System.out.println("Enter 1 for 'Aerobic exercises'.\nThe primary focus is to tone muscles and burn calories."+"\nSome examples of aerobic exercises include jogging, swimming, full-body, cycling, etc."+"\nOxygen is the main energy source in aerobic exercise.");
+      System.out.println("Enter 2 for 'Anaerobic exercises'.\nThe primary focus is to build muscle and burn fat."+"\nSome examples of anaerobic exercises are weight lifitng, and sprinting."+"\nAnaerobic exercises involve short bursts of energy and use glucose as the primary energy source.");
       System.out.println("It is is not reccommended to do Anaerobic exercises if you haven't exercised in awhile \nand are overweight.");
       kindOfWorkout = sc.nextInt();
     }
+    
+    ExerciseGUide ng = new ExerciseGuide(daysOfActivity);
+    boolean add = true;
+    
+    while(daysOfActivity > 0 && (add)){
+      System.out.println("Enter a number between 1 to " + daysOfActivity + " on which day you'd like to add an exercise to.");
+      int addDay = sc.nextInt();
+      System.out.println(muscleGroups.toString());
+      System.out.println("Type a muscle group you'd like to work that day and select an exercise from the list.");
+      String tempMuscleGroup = sc.next();
+      ArrayList<String> tempExercises = exercises.get(tempMuscleGroup);
+      System.out.println(tempExercises.toString());
+      System.out.println("Type the position of the exercise you'd like to add with the first exercise listed as 0.");
+      int exerciseNunmber = sc.next();
+    }
+    
+    System.out.println("How much do you weigh?");
+    currentWeight = sc.next();
+    
+    System.out.println("What is your goal weight?");
+    goalWeight = sc.next();
+    
     
   }
 }
