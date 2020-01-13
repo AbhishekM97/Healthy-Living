@@ -7,9 +7,9 @@ public class Exercise{
   int repetitions;
   int sets;
   double weight;
-  double intensity;
+  double time;
   
-  public Exercise(String name, String muscleGroup, String kindOfExercise, int repetitions, int sets, double weight, double intensity){
+  public Exercise(String name, String muscleGroup, String kindOfExercise, int repetitions, int sets, double weight, double time){
     
     this.name = name;
     this.muscleGroup = muscleGroup;
@@ -17,7 +17,7 @@ public class Exercise{
     this.repetitions = repetitions;
     this.sets = sets;
     this.weight = weight;
-    this.intensity = intensity;
+    this.time = time;
     
   }
   
@@ -45,8 +45,8 @@ public class Exercise{
     this.weight = weight;
   }
   
-  public void setIntensity(double intensity){
-    this.intensity = intensity;
+  public void setTime(double time){
+    this.time = time;
   }
   
   public String getName(){
@@ -73,8 +73,8 @@ public class Exercise{
     return this.weight;
   }
   
-  public double getIntensity(){
-    return this.intensity;
+  public double getTime(){
+    return this.time;
   }
 
 }

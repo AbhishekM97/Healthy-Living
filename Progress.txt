@@ -1,0 +1,13 @@
+So far I've been able to scrape jefit.com to create a resource for users to refer to when adding exercises to their exercise guide. 
+  I've wrote the basic implementation of all classes and will continue to edit as I go along working on this program. 
+  In the main method users are asked questions and exercises are made and added to their exercise guide.
+  
+  
+  Some things I will work on moving forward, I need to make sure that there is a resource or list that users can refer to when adding 
+  Foods to their nutritionguide. 
+  
+  There should be an implementation for users to go through their person object and access/modify each of the instance variables for the person object.
+  This includes the nutritionguide and exerciseguide.
+  
+  If I am able to accomplish these tasks soon I will try to implement this application with a front end.
+  
