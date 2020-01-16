@@ -4,8 +4,14 @@ import java.util.*;
 /* Scraped data from jefit.com to create a exercise database for each muscle group.
  * Users should be presented with data and be able to select and add exercises to their ExerciseGuide.
  */
-
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.JSONArray;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -54,11 +60,66 @@ public class Main{
       //System.out.println(tempArr.toString());
     }
     
-    /*Next we'll scrape from a website to get a list of foods a person can select foods from and add to their nutritionGuide.
-     *Couldn't find an API for exercises but if their is an api for foods I'll try to implement Java based request to the api.
+    /*Get response from EDAMAM api for different foods. There is a search parameter which is "searchFood" for purposes of testing right 
+     * now. I first create a URL object with the "foodUrl". Create a HttpURLConnection object by typecasting the object the openConnection method returns
+     * for the url object. Next the request is set to 'GET'. This allows to get information from a database.
+     * The 'getResponseCode' method for 'con' allows me to check if we established a successful connection to the database/server. If the value is 200 
+     * then a connection has been established.
+     * 
+     * Next the object the response returns is an inputstream. So, we create a inputStreamReader inside of a buffered reader in order to get the actual information.
+     * Then we create a string that will be each line of the InputStream from the response until a null value is reached. While each line of the inputstream is being read
+     * and 'inputLine' is being updated the StringBuffer object which allows to muttated strings and is a subclass of the String class is appened each line of the inputStream.
+     * The bufferedReader is then closed. Afterwards I declare a JSON parser and a JSONObject which is assigned a typecasted value for a parsed object of the buffered string.
+     * Then I create JSONArray which is assigned a value from the JSONObject. I get the JSONArray titled "hints" and access the food label and nutrients of each JSONobject in the JSONArray.
+     * 
     */
     
     ArrayList<String> food = new ArrayList<String>();
+    try{ 
+    String searchFood = "Chicken";
+    String foodUrl = "https://api.edamam.com/api/food-database/parser?ingr=" +searchFood + "&app_id=a2e1f841&app_key=8ffda76c642828b24d190f785c4e52cc";
+    URL url = new URL(foodUrl);
+    HttpURLConnection con = (HttpURLConnection) url.openConnection();
+    con.setRequestMethod("GET");
+    con.setConnectTimeout(5000);
+    int status = con.getResponseCode();
+    
+    BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+    String inputLine;
+    StringBuffer content = new StringBuffer();
+    while((inputLine = in.readLine()) != null){
+      content.append(inputLine);
+    }
+    in.close();
+    
+    JSONParser parse = new JSONParser();
+    JSONObject jobj = (JSONObject)parse.parse(content.toString());
+    JSONArray jsonarr1 = (JSONArray) jobj.get("hints");
+      
+    for(int i = 0; i <jsonarr1.size(); i++){
+      System.out.println("Here");
+      JSONObject jsonObj_1 = (JSONObject)jsonarr1.get(i);
+      JSONObject jsonObj_2 = (JSONObject)jsonObj_1.get("food");
+      JSONObject jsonObj_3 = (JSONObject)jsonObj_2.get("nutrients");
+      String foodName = (String)jsonObj_2.get("label");
+      System.out.println("Name: " +foodName);
+      System.out.println("Nutrients: " + jsonObj_3);
+    }
+    
+    //System.out.println(jobj.toString());
+    
+    con.disconnect();
+    
+    
+    //System.out.println(content.toString());
+    
+    System.exit(0);
+    }
+    
+    catch (Exception e){
+      System.out.println(e);
+    }
+    
     
     //Decleration of essential variables to create objects of person, NutritionGuide and FitnessPlan
     
