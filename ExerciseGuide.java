@@ -8,6 +8,7 @@
 
 import java.util.*;
 
+
 public class ExerciseGuide{
   HashMap<Integer, ArrayList<Exercise>> exerciseRoutine;
   
