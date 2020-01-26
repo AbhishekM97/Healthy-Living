@@ -1,11 +1,7 @@
-
-
 /* The exercise guide should have exercises for the number of days a user wants to workout.
  * To create values the user should be able to select or create exercises. 
- * A possibility is to have an API request for exercises and maybe foods that a user can look at and select from. 
- * 
+ * The exercises added to an exercise guide come from an a list that was given its values from scraping 'jefit.com'. 
 */
-
 import java.util.*;
 
 

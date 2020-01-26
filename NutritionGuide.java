@@ -5,10 +5,15 @@ public class NutritionGuide{
   protected ArrayList<Food> acceptableFoods;
   protected double maintainenceCalories; 
   protected double oneLBPerWeekLossCalories;
+  protected double goalWeight;
+  protected Scanner sc;
   
-  public NutritionGuide(double weight, int age, double heightInches, String activityLevel){
+  public NutritionGuide(double weight, int age, double heightInches, String activityLevel, double goalWeight){
+    //To calculate the daily calories needed I referred to "Howcast" to learn how to calculate maintainence caloriest
     
-    //To calculate the daily calories needed I referred to "Howcast" to learn how to calculate maintainence calories
+    this.goalWeight = goalWeight;
+    
+    this.sc = new Scanner(System.in);
     
     this.maintainenceCalories = (weight*6.23 + heightInches*12.7 - age*6.8 + 66);
     
@@ -68,6 +73,13 @@ public class NutritionGuide{
   
   public void removeFood(Food food){
     this.acceptableFoods.remove(food);
+  }
+  
+  public void calculateBodyFat(){
+    System.out.println("What is your waste size");
+    int waste = this.sc.nextInt();
+    
+    double BFP = 86.70*
   }
   
   

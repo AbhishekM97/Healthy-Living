@@ -30,7 +30,7 @@ public class Main{
      * The bufferedReader is then closed. Afterwards I declare a JSON parser and a JSONObject which is assigned a typecasted value for a parsed object of the buffered string.
      * Then I create JSONArray which is assigned a value from the JSONObject. I get the JSONArray titled "hints" and access the food label and nutrients of each JSONobject in the JSONArray.
      * 
-    */
+     */
     
     Scanner sc = new Scanner(System.in);
     
@@ -55,93 +55,102 @@ public class Main{
     JSONObject jobj = (JSONObject)parse.parse(content.toString());
     JSONArray jsonarr1 = (JSONArray) jobj.get("hints");
     
-    boolean continueAdd;
+    int counter = 0;
     
     for(int i = 0; i <jsonarr1.size(); i++){
-      System.out.println();
       JSONObject jsonObj_1 = (JSONObject)jsonarr1.get(i);
       JSONObject jsonObj_2 = (JSONObject)jsonObj_1.get("food");
       JSONObject jsonObj_3 = (JSONObject)jsonObj_2.get("nutrients");
       String foodName = (String)jsonObj_2.get("label");
       
       if(FoodList.containsKey(foodName) == true){
-        foodName = foodName.concat(Integer.toString(i));
+        counter += 1;
+        foodName = foodName.concat(Integer.toString(counter));
       }
       
       FoodList.put(foodName, jsonObj_3);
     }
     
+    ArrayList<String> selectedFoods = new ArrayList<String>();
+    String addFood;
+    Set<String> keys = (Set<String>)FoodList.keySet();
+    Object [] Keys = keys.toArray();
+    
+    for(int i = 0; i <keys.size(); i++){
+      System.out.println();
+      System.out.println("Name: " +Keys[i]);
+      System.out.println("Nutrients: " + FoodList.get(Keys[i]));
+    }
+    
+    System.out.println("\nLook through the results and type the name of the food you'd like to add and hit enter. \nType 'Done' if finished selecting foods with searched ingredient.\n");  
+    System.out.println("Line 88 Main");
+    
     do{
+      addFood = sc.nextLine();
       
-      for(int i = 0; i <jsonarr1.size(); i++){
-        System.out.println();
-        JSONObject jsonObj_1 = (JSONObject)jsonarr1.get(i);
-        JSONObject jsonObj_2 = (JSONObject)jsonObj_1.get("food");
-        JSONObject jsonObj_3 = (JSONObject)jsonObj_2.get("nutrients");
-        String foodName = (String)jsonObj_2.get("label");
-        FoodList.put(foodName, jsonObj_3);
-        System.out.println("Name: " +foodName);
-        System.out.println("Nutrients: " + jsonObj_3);
+      if(FoodList.containsKey(addFood) != true){
+        System.out.println("\nIncorrect food name. Type the name exactly as it appears on the screen.\nFeel free to copy and paste if possible.\nType 'Done' if finished adding foods from this search list.\n");
       }
-        System.out.println("Look through the results and type the name of the food you'd like to add to your foods list");
-        String addFood = sc.nextLine();
-        while(FoodList.containsKey(addFood) == false){
-          System.out.println("Incorrect food name. Type the name exactly as it appears on the screen.\nFeel free to copy and paste if possible.");
-          addFood = sc.nextLine();
-        }
-        
-        JSONObject selectedFood = FoodList.get(addFood);
-        
-        int calories;
-        int gOfPro;
-        int gOfCar;
-        int gOfFat;
-        
-        if(selectedFood.get("PROCNT") != null){
-          gOfPro = (int)Math.round((double)selectedFood.get("PROCNT"));
-        }
-        
-        else{ 
-          gOfPro = 0;
-        }
-        
-        if(selectedFood.get("CHOCDF") != null){
-          gOfCar = (int)Math.round((double)selectedFood.get("CHOCDF"));
-        }
-        
-        else{
-          gOfCar = 0;
-        }
-        
-        if(selectedFood.get("FAT") != null){
-          gOfFat = (int)Math.round((double)selectedFood.get("FAT"));
-        }
-        
-        else{
-          gOfFat = 0;
-        }
-        
-        if(selectedFood.get("ENERC_KCAL") != null){
-          calories = (int)Math.round((double)selectedFood.get("ENERC_KCAL"));
-        }
-        
-        else{
-          calories = 9*gOfFat + 4*gOfCar + 4*gOfPro;
-        }
-        
-        System.out.println("\n" + addFood + "\nCalories: " + calories + "\nGrams of protein: " +gOfPro +"\nGrams of carbohydrates: " + gOfCar +"\nGrams of fat: " + gOfFat);
-        Food food = new Food(calories, gOfCar, gOfFat, gOfPro, addFood);
-        
-        ng.acceptableFoods.add(food);
-        
-        System.out.println("Do you want to continue adding food from this list? Enter 'true' or 'false'.");
-        continueAdd = sc.nextBoolean();
-      }while(continueAdd == true);
+      
+      if(FoodList.containsKey(addFood) == true){
+        selectedFoods.add(addFood);
+        System.out.println("\nAdded "+addFood);
+      }
+      
+    }while(addFood.equals("Done") != true);
     
-    con.disconnect();
     
-    return ng;
-  }
+    for(int i = 0; i < selectedFoods.size(); i++){
+      
+      JSONObject selectedFood = FoodList.get(selectedFoods.get(i));
+      
+      int calories;
+      int gOfPro;
+      int gOfCar;
+      int gOfFat;
+      
+      if(selectedFood.get("PROCNT") != null){
+        gOfPro = (int)Math.round((double)selectedFood.get("PROCNT"));
+      }
+      
+      else{ 
+        gOfPro = 0;
+      }
+      
+      if(selectedFood.get("CHOCDF") != null){
+        gOfCar = (int)Math.round((double)selectedFood.get("CHOCDF"));
+      }
+      
+      else{
+        gOfCar = 0;
+      }
+      
+      if(selectedFood.get("FAT") != null){
+        gOfFat = (int)Math.round((double)selectedFood.get("FAT"));
+      }
+      
+      else{
+        gOfFat = 0;
+      }
+      
+      if(selectedFood.get("ENERC_KCAL") != null){
+        calories = (int)Math.round((double)selectedFood.get("ENERC_KCAL"));
+      }
+      
+      else{
+        calories = 9*gOfFat + 4*gOfCar + 4*gOfPro;
+      }
+      
+      System.out.println("\n" + selectedFoods.get(i) + "\nCalories: " + calories + "\nGrams of protein: " +gOfPro +"\nGrams of carbohydrates: " + gOfCar +"\nGrams of fat: " + gOfFat);
+      Food food = new Food(calories, gOfCar, gOfFat, gOfPro, addFood);
+      
+      ng.acceptableFoods.add(food);
+    }
+  
+  con.disconnect();
+  
+  return ng;
+}
 
   public static ExerciseGuide makeExercise(ExerciseGuide eg, int daysOfActivity, double currentWeight) throws IOException{
     /* Scraped data from jefit.com to create a exercise database for each muscle group.
@@ -200,10 +209,14 @@ public class Main{
       kindOfWorkout = sc.nextInt();
       
       if(kindOfWorkout == 2){
+        
+        ArrayList<String> selectedExercises = new ArrayList<String>();
+    
         System.out.println(muscleGroups.toString());
         System.out.println("Type a muscle group you'd like to work that day and select an exercise from the list.\nType anything but Cardio.");
         String tempMuscleGroup = sc.nextLine();
         tempMuscleGroup = sc.nextLine();
+        
         while(tempMuscleGroup.equals("Cardio")){
           System.out.println("Incorrect input for anaerobic, type a different muscle group.");
           tempMuscleGroup = sc.nextLine();
@@ -211,37 +224,57 @@ public class Main{
         
         ArrayList<String> tempExercises = exercises.get(tempMuscleGroup);
         System.out.println(tempExercises.toString());
-        System.out.println("Type the position of the exercise you'd like to add with the first exercise listed as 0.");
-        int exerciseNumber = sc.nextInt();
+        System.out.println("Type one exercise you'd like to add and press enter. Type 'Done' if you're finished selecting exercises.");
+        String selected;
+        do{
+          selected = sc.nextLine();
+          if(selected.equals("Done") == false){
+            selectedExercises.add(selected);
+          }
+        }while(selected.equals("Done") == false);
         
-        String exerciseName = tempExercises.get(exerciseNumber);
-        
-        System.out.println("How many sets would you like to do for this exercises. 3-4 sets is reccommended.");
-        int sets = sc.nextInt();
-        
-        System.out.println("How many repetitions would you like to do per set? 8-12 is reccommended for building muscle and burning fat.");
-        int reps = sc.nextInt();
-        
-        double exerciseWeight = currentWeight*0.7;
-        
-        Exercise tempExercise = new Exercise(exerciseName, tempMuscleGroup, "Anaerobic", reps, sets, exerciseWeight, 0.00);
-        eg.addExercise(addDay, tempExercise);
+        for(int i = 0; i < selectedExercises.size(); i++){
+          
+          String exerciseName = selectedExercises.get(i);
+          
+          System.out.println("How many sets would you like to do for " + exerciseName + ". 3-4 sets is reccommended.");
+          int sets = sc.nextInt();
+          
+          System.out.println("How many repetitions would you like to do per set? 8-12 is reccommended for building muscle and burning fat.");
+          int reps = sc.nextInt();
+          
+          double exerciseWeight = currentWeight*0.7;
+          
+          Exercise tempExercise = new Exercise(exerciseName, tempMuscleGroup, "Anaerobic", reps, sets, exerciseWeight, 0.00);
+          eg.addExercise(addDay, tempExercise);
+        }
       }
       
       else{
+        ArrayList<String> selectedExercises = new ArrayList<String>();
+        
         String tempMuscleGroup = "Cardio";
         ArrayList<String> tempExercises = exercises.get(tempMuscleGroup);
         System.out.println(tempExercises.toString());
-        System.out.println("Type the position of the exercise you'd like to add with the first exercise listed as 0.");
-        int exerciseNumber = sc.nextInt();
+        System.out.println("Type one exercise you'd like to add and press enter. Type 'Done' if you're finished selecting exercise.");
+        String selected;
+        do{
+          selected = sc.nextLine();
+          if(selected.equals("Done") == false){
+            selectedExercises.add(selected);
+          }
+        }while(selected.equals("Done") == false);
         
-        String exerciseName = tempExercises.get(exerciseNumber);
-        
-        System.out.println("How long do you want to perform this exercise? Enter a number of minutes in the format of xxx.xx");
-        double time = sc.nextDouble();
-        
-        Exercise tempExercise = new Exercise(exerciseName, tempMuscleGroup, "Aerobic", 0, 0, 0, time);
-        eg.addExercise(addDay, tempExercise);
+        for(int i = 0; i < selectedExercises.size(); i++){
+          
+          String exerciseName = selectedExercises.get(i);
+          
+          System.out.println("How long do you want to perform " + exerciseName + "? Enter a number of minutes in the format of xxx.xx");
+          double time = sc.nextDouble();
+          
+          Exercise tempExercise = new Exercise(exerciseName, tempMuscleGroup, "Aerobic", 0, 0, 0, time);
+          eg.addExercise(addDay, tempExercise);
+        }
       }
       
       System.out.println("Do you want to continue adding exercises? Enter 'true' for yes and 'false' for no.");
@@ -265,7 +298,7 @@ public class Main{
     
     //User interaction to get information to assign objects. 
     
-    System.out.println("\nHello! This health app will ask you some questions about your daily activity level\nand about you.");
+    System.out.println("\nHello! This health app will ask you some questions about your daily activity level and about you.");
     System.out.println("\nWhat is your name?");
     name = sc.nextLine();
     
@@ -314,19 +347,27 @@ public class Main{
     
     if(daysOfActivity > 0){
       eg = makeExercise(eg, daysOfActivity, currentWeight);
+      ArrayList<Exercise> temp = eg.getExerciseRoutine(1);
+      for(int j = 0; j < temp.size(); j++){
+        System.out.println(temp.get(j).getName());
+      }
     }
+    //ArrayList<Exercise> temp = eg.getExerciseRoutine(1);
+    //System.out.println(temp.toString());
     
-    NutritionGuide ng = new NutritionGuide(currentWeight, age, heightInches, activityLevel);
+    NutritionGuide ng = new NutritionGuide(currentWeight, age, heightInches, activityLevel, goalWeight);
     
     System.out.println("\nThe amout of calories you need to maintain your weight is " + ng.getMaintainenceCalories());
-    System.out.println("\nThe amount of calories you can eat daily to lose is " + ng.getOneLBPerWeekLossCalories());
+    System.out.println("\nThe amount of calories you can eat daily to lose one LB of fat is " + ng.getOneLBPerWeekLossCalories());
     System.out.println("\nType a key ingredient in a food you'd like to add to a list of foods you can eat.");
     String searchFood = sc.nextLine();
     ng = makeFood(searchFood = sc.nextLine(), ng);
     
+    ng.calculateBodyFat();
+    
     Person user = new Person(name, age, currentWeight, goalWeight, ng, eg);
     
     
-    //System.exit(0);
+    System.exit(0);
   }
 }
