@@ -1,3 +1,4 @@
+package app;
 /* The exercise guide should have exercises for the number of days a user wants to workout.
  * To create values the user should be able to select or create exercises. 
  * The exercises added to an exercise guide come from an a list that was given its values from scraping 'jefit.com'. 

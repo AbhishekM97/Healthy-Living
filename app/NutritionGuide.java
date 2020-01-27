@@ -1,3 +1,4 @@
+package app;
 
 import java.util.*;
 
@@ -9,7 +10,7 @@ public class NutritionGuide{
   protected Scanner sc;
   
   public NutritionGuide(double weight, int age, double heightInches, String activityLevel, double goalWeight){
-    //To calculate the daily calories needed I referred to "Howcast" to learn how to calculate maintainence caloriest
+    //To calculate the daily maintainence calories, I referred to "Howcast".
     
     this.goalWeight = goalWeight;
     
@@ -75,10 +76,12 @@ public class NutritionGuide{
     this.acceptableFoods.remove(food);
   }
   
-  public void calculateBodyFat(){
+ /* public void calculateBodyFat(){
     System.out.println("What is your waste size");
     int waste = this.sc.nextInt();
+    
+    //double BFP = 86.70*
   }
-  
+  */
   
 }

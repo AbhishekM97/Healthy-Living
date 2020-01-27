@@ -1,3 +1,5 @@
+package app;
+
 import java.util.Scanner;
 import java.util.*;
 import java.net.HttpURLConnection;
@@ -16,7 +18,8 @@ import org.jsoup.select.Elements;
 
 public class Main{
 
-  public static NutritionGuide makeFood(String searchFood, NutritionGuide ng) throws ParseException, IOException{
+  @SuppressWarnings("resource")
+public static NutritionGuide makeFood(String searchFood, NutritionGuide ng) throws ParseException, IOException{
     
     /*Get response from EDAMAM api for different foods. There is a search parameter which is "searchFood" for purposes of testing right 
      * now. I first create a URL object with the "foodUrl". Create a HttpURLConnection object by typecasting the object the openConnection method returns
@@ -41,7 +44,8 @@ public class Main{
     HttpURLConnection con = (HttpURLConnection) url.openConnection();
     con.setRequestMethod("GET");
     con.setConnectTimeout(5000);
-    int status = con.getResponseCode();
+    @SuppressWarnings("unused")
+	int status = con.getResponseCode();
     
     BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
     String inputLine;
@@ -164,7 +168,8 @@ public class Main{
      * Then the keys (muscleGroups) and values (ArrayLists of exercises for the muscle group) are added to the hashmap 
      * "exercises".
      */ 
-    Scanner sc = new Scanner(System.in);
+    @SuppressWarnings("resource")
+	Scanner sc = new Scanner(System.in);
     HashMap<String, ArrayList<String>> exercises = new HashMap<String, ArrayList<String>>();
     ArrayList<String> muscleGroups = new ArrayList<String>();
     
@@ -283,11 +288,13 @@ public class Main{
     return eg;
   }
   
-  public static void main(String args[]) throws IOException, ParseException{
+  @SuppressWarnings("unused")
+public static void main(String args[]) throws IOException, ParseException{
     
-    //Decleration of essential variables to create objects of person, NutritionGuide and FitnessPlan
+    //Declaration of essential variables to create objects of person, NutritionGuide and FitnessPlan
     
-    Scanner sc = new Scanner(System.in);
+    @SuppressWarnings("resource")
+	Scanner sc = new Scanner(System.in);
     String activityLevel;
     String name;
     int age;
@@ -363,10 +370,10 @@ public class Main{
     String searchFood = sc.nextLine();
     ng = makeFood(searchFood = sc.nextLine(), ng);
     
-    ng.calculateBodyFat();
+    //ng.calculateBodyFat();
     
     Person user = new Person(name, age, currentWeight, goalWeight, ng, eg);
-    
+    System.out.println("Hello "+user.name);
     
     System.exit(0);
   }
