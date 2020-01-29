@@ -145,7 +145,7 @@ public static NutritionGuide makeFood(String searchFood, NutritionGuide ng) thro
         calories = 9*gOfFat + 4*gOfCar + 4*gOfPro;
       }
       
-      System.out.println("\n" + selectedFoods.get(i) + "\nCalories: " + calories + "\nGrams of protein: " +gOfPro +"\nGrams of carbohydrates: " + gOfCar +"\nGrams of fat: " + gOfFat);
+      //System.out.println("\n" + selectedFoods.get(i) + "\nCalories: " + calories + "\nGrams of protein: " +gOfPro +"\nGrams of carbohydrates: " + gOfCar +"\nGrams of fat: " + gOfFat);
       Food food = new Food(calories, gOfCar, gOfFat, gOfPro, addFood);
       
       ng.acceptableFoods.add(food);
@@ -370,10 +370,11 @@ public static void main(String args[]) throws IOException, ParseException{
     String searchFood = sc.nextLine();
     ng = makeFood(searchFood = sc.nextLine(), ng);
     
-    //ng.calculateBodyFat();
+    ng.calculateBodyFat();
     
+    System.out.println("Current maintainence calories is " + ng.maintainenceCalories + ".\n\nThe lowest calorie restriction you can maintain is " + ng.getLowestCalPerDay() + ".");
     Person user = new Person(name, age, currentWeight, goalWeight, ng, eg);
-    System.out.println("Hello "+user.name);
+    //System.out.println("Hello "+user.name);
     
     System.exit(0);
   }
