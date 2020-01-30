@@ -122,6 +122,8 @@ public class NutritionGuide{
 	  
 	  this.lbsOfFat = this.BFP/100 * this.weight; 
 	  double leanWeight = this.weight - this.lbsOfFat;
+	  leanWeight += (this.lbsOfFat*10.0)/this.BFP;
+	  System.out.println("\nIf you lose "+(this.weight-leanWeight)+" LBS your body-fat percentage should be at 10%.\nAt 10% you should aim to be this weight: "+leanWeight);
 	  this.lowestCalPerDay = (leanWeight*6.23 + this.height*12.7 - this.age*6.8 + 66);
 	  
 	  if(this.activityLevel.equals("Sedentary")) {

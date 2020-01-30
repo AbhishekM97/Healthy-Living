@@ -372,7 +372,7 @@ public static void main(String args[]) throws IOException, ParseException{
     
     ng.calculateBodyFat();
     
-    System.out.println("Current maintainence calories is " + ng.maintainenceCalories + ".\n\nThe lowest calorie restriction you can maintain is " + ng.getLowestCalPerDay() + ".");
+    System.out.println("Current maintainence calories is " + ng.maintainenceCalories + ".\n\nThe calories needed to maintain your body-weight at 10% body-fat is  " + ng.getLowestCalPerDay() + ".");
     Person user = new Person(name, age, currentWeight, goalWeight, ng, eg);
     //System.out.println("Hello "+user.name);
     
