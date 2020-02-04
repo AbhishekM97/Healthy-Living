@@ -376,6 +376,10 @@ public static void main(String args[]) throws IOException, ParseException{
     Person user = new Person(name, age, currentWeight, goalWeight, ng, eg);
     //System.out.println("Hello "+user.name);
     
+    System.out.println("How many months would you like to see your potential weight loss for? Enter a whole number.");
+    int months = sc.nextInt();
+    double lostWeight = ng.MonthDeadLine(months);
+    System.out.println("If you eat at your lowest calories per day starting today. In " + months + " you will have lost " + lostWeight + " pounds!");
     System.exit(0);
   }
 }

@@ -3,6 +3,7 @@ package app;
 import java.util.*;
 
 public class NutritionGuide{
+	
   protected ArrayList<Food> acceptableFoods;
   protected double maintainenceCalories; 
   protected double oneLBPerWeekLossCalories;
@@ -16,9 +17,9 @@ public class NutritionGuide{
   protected String activityLevel;
   protected String gender;
   protected Scanner sc;
-  protected double MyGramPro;
-  protected double MyGramCar;
-  protected double MyGramFat;
+  protected double gramPro;
+  protected double gramCar;
+  protected double gramFat;
   
   public NutritionGuide(double weight, int age, double heightInches, String activityLevel, double goalWeight){
     //To calculate the daily maintainence calories, I referred to "Howcast".
@@ -100,6 +101,24 @@ public class NutritionGuide{
     this.acceptableFoods.remove(food);
   }
   
+  public double calculateMaintainenceCal(double weight, int age, double heightInches, String activityLevel) {
+	  double mainCal = (weight*6.23 + heightInches*12.7 - age*6.8 + 66);
+	  if(activityLevel == "Sedentary"){
+		  mainCal = mainCal * 1.2;
+	  }
+	  else if(activityLevel == "Light"){
+		  mainCal = mainCal * 1.375;
+	  }
+	  else if(activityLevel == "Moderate"){
+		  mainCal = mainCal * 1.55;
+	  }
+		      //else statement for daily exercise
+	  else{
+		  mainCal = mainCal * 1.725;
+	  }
+	  return mainCal;
+  }
+  
   public double calculateBodyFat(){
 	int hips;
     System.out.println("\nWhat is your waist size in inches. \nMeasure the circumference of the ring that overlaps your belly button for men. \nMeasure the smallest width ring around the abdomen for women. ");
@@ -123,7 +142,7 @@ public class NutritionGuide{
 	  this.lbsOfFat = this.BFP/100 * this.weight; 
 	  double leanWeight = this.weight - this.lbsOfFat;
 	  leanWeight += (this.lbsOfFat*10.0)/this.BFP;
-	  System.out.println("\nIf you lose "+(this.weight-leanWeight)+" LBS your body-fat percentage should be at 10%.\nAt 10% you should aim to be this weight: "+leanWeight);
+	  System.out.println("\nIf you lose "+(this.weight-leanWeight)+" LBS of fat your body-fat percentage should be at 10%.\nAt 10% you should aim to be this weight: "+leanWeight);
 	  this.lowestCalPerDay = (leanWeight*6.23 + this.height*12.7 - this.age*6.8 + 66);
 	  
 	  if(this.activityLevel.equals("Sedentary")) {
@@ -138,14 +157,50 @@ public class NutritionGuide{
 	  if(this.activityLevel.equals("Very Active")) {
 		  this.lowestCalPerDay *= 1.725;
 	  }
+	  this.setPersonMacros();
 	  return this.lowestCalPerDay;
+	  
   }
   
   public void setPersonMacros() {
 	/* Give users option to modify their macros.
-	 * The lean weight is calculated with absolute zero body fat percentage.
-	 * That is unrealistic and needs to be adjusted. The goal for users should be to be about 10% BF;
-	 * An increase in body fat means a increase in the users calories. (You're welcome)
 	 */
+	  this.gramPro = (this.lowestCalPerDay*0.35)/4;
+	  this.gramCar = (this.lowestCalPerDay*0.30)/4;
+	  this.gramFat = (this.lowestCalPerDay*0.35)/9;
+	  
+	  System.out.println("\nMacronutrients\nGrams of Protein: " + this.gramPro + "\nGrams of Carbs: " + this.gramCar + "\nGrams of Fat: " + this.gramFat + "\n");
+	  
   }
+
+  public void setPersonMacros(double proteins, double carbs, double fats) {
+	  this.gramCar = carbs;
+	  this.gramFat = fats;
+	  this.gramPro = proteins;
+  }
+  
+  /* Method that calculates how many pounds of weight you will lose,
+   * given an input of a number of months. There is 3500 calories in a pound of fat.
+   * Hence why if you decrease your calories to 500 below your maintainence youll lose a lb of fat in a week.
+   */
+  public double MonthDeadLine(int months) {
+	  double adjCurWeight = this.weight;
+	  int calPerLB = 3500;
+	  //int counter = 0;
+	  double calBurned = 0;
+	  double tempMainCal = this.maintainenceCalories;
+	  for(int i = 0; i < (30*months); i++) {
+		  double caloricDeficit = tempMainCal - this.lowestCalPerDay;
+		  calBurned += caloricDeficit;
+		  if(calBurned >= calPerLB) {
+			  calBurned -= calPerLB;
+			  adjCurWeight -= 1.00;
+			  tempMainCal = this.calculateMaintainenceCal(adjCurWeight, this.age, this.height, this.activityLevel);
+		  }
+	  }
+	  
+	  double weightLoss = this.weight - adjCurWeight;
+	  return weightLoss;
+  }
+  
 }
