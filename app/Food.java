@@ -49,5 +49,8 @@ public class Food{
   public int getGramsOfFat(){
     return this.gramsOfFat;
   }
-  
+  @Override
+  public String toString() {
+	  return "\nName: " + this.name + "\nCalories: " + this.calories+"\nProtein: " + this.gramsOfProtein + "grams\nCarbohydrates: " + this.gramsOfCarbs + "grams\nFats: " + this.gramsOfFat + "grams";
+  }
 }

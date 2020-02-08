@@ -17,7 +17,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class Main{
-
+public static Scanner sc = new Scanner(System.in);
   @SuppressWarnings("resource")
 public static NutritionGuide makeFood(String searchFood, NutritionGuide ng) throws ParseException, IOException{
     
@@ -288,6 +288,68 @@ public static NutritionGuide makeFood(String searchFood, NutritionGuide ng) thro
     return eg;
   }
   
+  /* should return NutritionGuide 
+   * useNutritionGuide should serve as the method which allows the user to access and mutate 
+   * values from the NutritionGuide that is created in the main method. 
+   * This method should then return the NutritionGuide which was accessed/mutated back to the main method.
+   * 
+   * The main method will have a loop as of now that will continue until the user types 'quit'.
+   */
+  
+@SuppressWarnings("unused")
+public static NutritionGuide useNutritionGuide(NutritionGuide NG)throws IOException, ParseException {
+	
+	/*ArrayList<Integer> commands = new ArrayList<Integer>();
+	for(int i = 1; i<= 14; i++) {
+		commands.add(i);
+	}
+	*/
+	
+	String command = "";
+	do {
+		System.out.println("Enter 1 if you want to access your acceptable foods.");
+		System.out.println("Enter 2 if you want to view or modify your macros."
+				+ "\nEnter 3 if you want view the calories needed to maintain your current weight and "
+				+ "\nto lose one lb. per week.");
+		command = sc.nextLine();
+		if(command.equals("1")) {
+			if(NG.acceptableFoods.size()>0) {
+				System.out.println("\nPrinting current list of acceptable foods..............................");
+				for(Food temp: NG.getAcceptableFoods()) {
+					System.out.println(temp);
+				}
+			}
+			else {
+				System.out.println("Foods list is currently empty.");
+			}
+			
+			String command2 = "";
+			System.out.println("Enter 1 if you'd like to search for a new food and add it to your list."
+					+ "\nEnter 2 if you'd like to remove a food from the list."
+					+ "\nEnter 'Done' if you no longer want to continue accessing your acceptable foods list.");
+			command2 = sc.nextLine();
+		}
+	}while(command.equals("Done") == false);
+	
+	/*System.out.println("\nThe amout of calories you need to maintain your weight is " + NG.getMaintainenceCalories());
+    System.out.println("\nThe amount of calories you can eat daily to lose one LB of fat in a week is " + NG.getOneLBPerWeekLossCalories());
+    System.out.println("\nType a key ingredient in a food you'd like to add to a list of foods you can eat.");
+    String searchFood = sc.nextLine();
+    NG = makeFood(searchFood = sc.nextLine(), NG);
+    
+    NG.calculateBodyFat();
+    
+    System.out.println("Current maintainence calories is " + NG.maintainenceCalories + ".\n\nThe calories needed to maintain your body-weight at 10% body-fat is  " + NG.getLowestCalPerDay() + ".");
+    //System.out.println("Hello "+user.name);
+    
+    System.out.println("How many months would you like to see your potential weight loss for? Enter a whole number.");
+    int months = sc.nextInt();
+    double lostWeight = NG.MonthDeadLine(months);
+    System.out.println("If you eat at your lowest calories per day starting today. In " + months + " months you will have lost " + lostWeight + " pounds!");
+	*/
+	return NG;
+}
+  
   @SuppressWarnings("unused")
 public static void main(String args[]) throws IOException, ParseException{
     
@@ -330,10 +392,10 @@ public static void main(String args[]) throws IOException, ParseException{
       goalWeight = sc.nextDouble();
     }
     
-    System.out.println("What is your current activity level?\n'Sedentary',\n'Light' (1-2 days a week),\n'Moderate' (3-5 days a week),\n or 'Very Active' (Daily)");
+    System.out.println("What is your current activity level?\n'Sedentary',\n'Light' (1-2 days a week),\n'Moderate' (3-5 days a week),\n or'Very Active' (Daily)");
     activityLevel = sc.nextLine();
     activityLevel = sc.nextLine();
-    
+     
     System.out.println("How tall are you in inches? enter a value greater than zero!");
     heightInches = sc.nextDouble();
     while(heightInches<=0){
@@ -363,23 +425,10 @@ public static void main(String args[]) throws IOException, ParseException{
     //System.out.println(temp.toString());
     
     NutritionGuide ng = new NutritionGuide(currentWeight, age, heightInches, activityLevel, goalWeight);
-    
-    System.out.println("\nThe amout of calories you need to maintain your weight is " + ng.getMaintainenceCalories());
-    System.out.println("\nThe amount of calories you can eat daily to lose one LB of fat is " + ng.getOneLBPerWeekLossCalories());
-    System.out.println("\nType a key ingredient in a food you'd like to add to a list of foods you can eat.");
-    String searchFood = sc.nextLine();
-    ng = makeFood(searchFood = sc.nextLine(), ng);
-    
-    ng.calculateBodyFat();
-    
-    System.out.println("Current maintainence calories is " + ng.maintainenceCalories + ".\n\nThe calories needed to maintain your body-weight at 10% body-fat is  " + ng.getLowestCalPerDay() + ".");
     Person user = new Person(name, age, currentWeight, goalWeight, ng, eg);
-    //System.out.println("Hello "+user.name);
     
-    System.out.println("How many months would you like to see your potential weight loss for? Enter a whole number.");
-    int months = sc.nextInt();
-    double lostWeight = ng.MonthDeadLine(months);
-    System.out.println("If you eat at your lowest calories per day starting today. In " + months + " you will have lost " + lostWeight + " pounds!");
+    useNutritionGuide(ng);
+    
     System.exit(0);
   }
 }

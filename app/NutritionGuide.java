@@ -25,24 +25,17 @@ public class NutritionGuide{
     //To calculate the daily maintainence calories, I referred to "Howcast".
     
     this.goalWeight = goalWeight;
-    
     this.weight = weight;
-    
     this.activityLevel = activityLevel;
-    
     this.sc = new Scanner(System.in);
-    
     this.height = heightInches;
-    
     this.BFP = 0.0;
-    
     this.age = age;
     
     System.out.println("What sex are you (Gender)");
     this.gender = this.sc.nextLine();
     
     this.maintainenceCalories = (weight*6.23 + heightInches*12.7 - age*6.8 + 66);
-    
     if(activityLevel == "Sedentary"){
       this.maintainenceCalories = this.maintainenceCalories * 1.2;
     }
