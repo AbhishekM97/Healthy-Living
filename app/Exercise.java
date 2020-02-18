@@ -77,7 +77,16 @@ public class Exercise{
   public double getTime(){
     return this.time;
   }
-
+  @Override
+  public String toString() {
+	  if(this.kindOfExercise.contentEquals("Anaerobic")){
+		  return "\nName: " + this.name + "\nKind of Exercise: " + this.kindOfExercise + "\nSets: " + this.sets + "\nRepetitions Per Set: "
+				 + "Weight: " + this.weight;
+	  }
+	  else {
+		  return "\nName: " + this.name + "\nKind of Exercise: " + this.kindOfExercise + "\nDuration: " + this.time;
+	  }
+  }
 }
   
   

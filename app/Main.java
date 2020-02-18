@@ -17,6 +17,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 public class Main{
+	
 public static Scanner sc = new Scanner(System.in);
   @SuppressWarnings("resource")
 public static NutritionGuide makeFood(String searchFood, NutritionGuide ng) throws ParseException, IOException{
@@ -87,12 +88,12 @@ public static NutritionGuide makeFood(String searchFood, NutritionGuide ng) thro
     }
     
     System.out.println("\nLook through the results and type the name of the food you'd like to add and hit enter. \nType 'Done' if finished selecting foods with searched ingredient.\n");  
-    System.out.println("Line 88 Main");
+    //System.out.println("Line 90 Main");
     
     do{
       addFood = sc.nextLine();
       
-      if(FoodList.containsKey(addFood) != true){
+      if(FoodList.containsKey(addFood) == false && (addFood.contentEquals("Done") == false)){
         System.out.println("\nIncorrect food name. Type the name exactly as it appears on the screen.\nFeel free to copy and paste if possible.\nType 'Done' if finished adding foods from this search list.\n");
       }
       
@@ -101,7 +102,7 @@ public static NutritionGuide makeFood(String searchFood, NutritionGuide ng) thro
         System.out.println("\nAdded "+addFood);
       }
       
-    }while(addFood.equals("Done") != true);
+    }while(addFood.equals("Done") == false);
     
     
     for(int i = 0; i < selectedFoods.size(); i++){
@@ -146,7 +147,7 @@ public static NutritionGuide makeFood(String searchFood, NutritionGuide ng) thro
       }
       
       //System.out.println("\n" + selectedFoods.get(i) + "\nCalories: " + calories + "\nGrams of protein: " +gOfPro +"\nGrams of carbohydrates: " + gOfCar +"\nGrams of fat: " + gOfFat);
-      Food food = new Food(calories, gOfCar, gOfFat, gOfPro, addFood);
+      Food food = new Food(calories, gOfCar, gOfFat, gOfPro, selectedFoods.get(i));
       
       ng.acceptableFoods.add(food);
     }
@@ -181,8 +182,8 @@ public static NutritionGuide makeFood(String searchFood, NutritionGuide ng) thro
     muscleGroups.add("Glutes");
     muscleGroups.add("Shoulders");
     muscleGroups.add("Triceps");
-    muscleGroups.add("Upper Legs");
-    muscleGroups.add("Lower Legs");
+    muscleGroups.add("Upper-Legs");
+    muscleGroups.add("Lower-Legs");
     muscleGroups.add("Cardio");
     
     for(int i = 0; i<11; ++i){
@@ -305,13 +306,18 @@ public static NutritionGuide useNutritionGuide(NutritionGuide NG)throws IOExcept
 	}
 	*/
 	
-	String command = "";
+	String command;
+
 	do {
-		System.out.println("Enter 1 if you want to access your acceptable foods.");
-		System.out.println("Enter 2 if you want to view or modify your macros."
-				+ "\nEnter 3 if you want view the calories needed to maintain your current weight and "
-				+ "\nto lose one lb. per week.");
+		command = "";
+		System.out.println("\nEnter '1' if you want to access your acceptable foods.");
+		System.out.println("Enter '2' if you want to view your macros."
+				+ "\nEnter '3' if you want view the calories needed to maintain your current weight and to lose one lb. per week."
+				+ "\nEnter '4' to view the calories needed to maintain your lower weight if you were 10% body-fat \nand to calculate how many lbs. of fat you'll lose if you eat at your lowest calories to maintain 10%."
+				+ "\nEnter 'Done' if you no longer wish to continue using your nutritionGuide.");
+		
 		command = sc.nextLine();
+		
 		if(command.equals("1")) {
 			if(NG.acceptableFoods.size()>0) {
 				System.out.println("\nPrinting current list of acceptable foods..............................");
@@ -324,12 +330,56 @@ public static NutritionGuide useNutritionGuide(NutritionGuide NG)throws IOExcept
 			}
 			
 			String command2 = "";
-			System.out.println("Enter 1 if you'd like to search for a new food and add it to your list."
+			do {
+			System.out.println("\nEnter 1 if you'd like to search for a new food and add it to your list."
 					+ "\nEnter 2 if you'd like to remove a food from the list."
 					+ "\nEnter 'Done' if you no longer want to continue accessing your acceptable foods list.");
 			command2 = sc.nextLine();
+			if(command2.equals("1")) {
+			    System.out.println("\nType a key ingredient in a food you'd like to add to a list of foods you can eat.");
+			    String searchFood;
+			    NG = makeFood(searchFood = sc.nextLine(), NG);
+			}
+			if(command2.equals("2")) {
+				System.out.println("Type the position of the food object you'd like to remove with the first food item in the list being represented by the number 0.");
+				int position = sc.nextInt();
+				NG.removeFood(position);	
+			}
+			}while(command2.equals("Done") == false);
 		}
-	}while(command.equals("Done") == false);
+		
+		if(command.equals("2")) {
+			/*Macros have to be set before we can get them.
+			 * Try calling the Macros setter method in the main method. 
+			 * double [] macros = NG.getPersonMacros();
+			   System.out.println("\nGrams of Protein: " + macros[1]
+			   + "\nGrams of Carbohydrates: " + macros[2] 
+			   +"\nGrams of Fats: " + macros[3]);
+			 */
+				NG.setPersonMacros();
+		}
+		
+		else if(command.equals("3")) {
+			System.out.println("\nThe amount of calories you need to maintain your weight is " + NG.getMaintainenceCalories()+".");
+			System.out.println("The amount of calories you can eat eat daily to lose one LB of fat in one week is " + NG.getOneLBPerWeekLossCalories()+".");
+		}
+		
+		else if(command.equals("4")) {
+			System.out.println("The lowest amount of calories you can maintain at 10% body-fat is " + NG.getLowestCalPerDay() + ".\n");
+			System.out.println("Enter in an amount of months(Whole Number) for which you want to see your potential weight loss, given you are following the calories of lowest maintainence at 10% body-fat."
+					+ "\nFor example if you want to see how many lb(s). of fat you could lose in 4 months simply type '4' and press 'Enter'.");
+			int months = sc.nextInt();
+		    double lostWeight = NG.MonthDeadLine(months);
+		    System.out.println("If you eat at your lowest calories per day starting today. In " + months + " months you will have lost " + lostWeight + " pounds!");
+		    System.out.println("Would you like to set your macros to fit your lowest calories? \nEnter 'true' for yes and enter 'false' for no.");
+		    boolean command4_2 = sc.nextBoolean();
+		    
+		    if(command4_2 == true) {
+		    	NG.setPersonMacros2();
+		    }
+		}
+		
+	}while(!command.contentEquals("Done"));
 	
 	/*System.out.println("\nThe amout of calories you need to maintain your weight is " + NG.getMaintainenceCalories());
     System.out.println("\nThe amount of calories you can eat daily to lose one LB of fat in a week is " + NG.getOneLBPerWeekLossCalories());
@@ -349,7 +399,47 @@ public static NutritionGuide useNutritionGuide(NutritionGuide NG)throws IOExcept
 	*/
 	return NG;
 }
-  
+  /*
+   * UseExerciseGuide should return the exercise guide which was passed into it. 
+   * Gives users the options to add or remove exercises from their exercise list.
+   */
+public static ExerciseGuide useExerciseGuide(ExerciseGuide eg, int daysOfActivity, double currentWeight) throws IOException {
+	System.out.println("Enter 1 if you'd like to see your weekly exercise routine!"
+			+ "\nEnter 2 if you'd like to add an exercise to your weekly exercise routine."
+			+ "\nEnter 3 if you'd like to remove exercises from your list of weekly exercises."
+			+ "\nEnter 'Done' if you're finished accessing your exercise guide.");
+	String command;
+	do {
+		command = sc.nextLine();
+		
+		if(command.contentEquals("1")){
+			if(eg.getExerciseRoutine(1).size()==0) {
+				System.out.println("No exercises currently in your exercise guide.");
+			}
+			for(Integer i: eg.exerciseRoutine.keySet()) {
+				ArrayList<Exercise> temp = eg.getExerciseRoutine(i);
+				for(Exercise e: temp) {
+					System.out.println(e.toString());
+				}
+			}
+		}
+		else if(command.contentEquals("2")){
+			eg = makeExercise(eg, daysOfActivity, currentWeight);
+		}
+		else if(command.contentEquals("3")) {
+			System.out.println("Type the day from which you want to remove an exercise from and press 'Enter'."
+					+ "\nThen type the position of the exercise from the list which you want to remove." +
+					"\nWith the first position/index of the list being represented by the number '0'.");
+			int day = sc.nextInt();
+			ArrayList<Exercise> temp = eg.getExerciseRoutine(day);
+			for(Exercise e: temp) {
+				System.out.println(e.toString());
+			}
+			
+		}
+	}while(command.contentEquals("Done"));
+	return eg;
+}
   @SuppressWarnings("unused")
 public static void main(String args[]) throws IOException, ParseException{
     
@@ -414,20 +504,24 @@ public static void main(String args[]) throws IOException, ParseException{
     
     ExerciseGuide eg = new ExerciseGuide(daysOfActivity);
     
-    if(daysOfActivity > 0){
-      eg = makeExercise(eg, daysOfActivity, currentWeight);
-      ArrayList<Exercise> temp = eg.getExerciseRoutine(1);
-      for(int j = 0; j < temp.size(); j++){
-        System.out.println(temp.get(j).getName());
-      }
-    }
-    //ArrayList<Exercise> temp = eg.getExerciseRoutine(1);
-    //System.out.println(temp.toString());
-    
     NutritionGuide ng = new NutritionGuide(currentWeight, age, heightInches, activityLevel, goalWeight);
     Person user = new Person(name, age, currentWeight, goalWeight, ng, eg);
     
-    useNutritionGuide(ng);
+    ng.calculateBodyFat();
+    String command;
+    do {
+    	System.out.println("\nEnter '1' to access and modify your nutrition guide."
+    			+ "\nEnter '2' to access and modify your exercise guide."
+    			+ "\nEnter 'Done' to exit the program.");
+    	command = sc.nextLine();
+    	if(command.equals("1")) {
+    		ng = useNutritionGuide(ng);
+    	}
+    	else if(command.equals("2")) {
+    		eg = useExerciseGuide(eg, daysOfActivity, currentWeight);
+    	}
+    	
+    }while(!command.equals("Done"));
     
     System.exit(0);
   }

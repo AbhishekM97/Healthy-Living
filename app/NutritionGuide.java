@@ -90,8 +90,8 @@ public class NutritionGuide{
     this.acceptableFoods.add(food);
   }
   
-  public void removeFood(Food food){
-    this.acceptableFoods.remove(food);
+  public void removeFood(int Index){
+    this.acceptableFoods.remove(Index);
   }
   
   public double calculateMaintainenceCal(double weight, int age, double heightInches, String activityLevel) {
@@ -114,6 +114,8 @@ public class NutritionGuide{
   
   public double calculateBodyFat(){
 	int hips;
+	System.out.println("This is a way to calculate your bodyfat at home if you have no idea what it is or don't have access to fancy equipment at the moment."
+			+ "\nWhat you will need is MEASURING TAPE to accurately calculate your body-fat.");
     System.out.println("\nWhat is your waist size in inches. \nMeasure the circumference of the ring that overlaps your belly button for men. \nMeasure the smallest width ring around the abdomen for women. ");
     int waist = this.sc.nextInt();
     System.out.println("What is the circumference of your neck in inches. \nMeasure with tape placed right below the larynx. \nAvoid flaring your neck outwards and keep it upright.");
@@ -150,17 +152,24 @@ public class NutritionGuide{
 	  if(this.activityLevel.equals("Very Active")) {
 		  this.lowestCalPerDay *= 1.725;
 	  }
-	  this.setPersonMacros();
 	  return this.lowestCalPerDay;
 	  
   }
   
   public void setPersonMacros() {
-	/* Give users option to modify their macros.
+	  this.gramCar = (this.oneLBPerWeekLossCalories*0.30)/4;
+	  this.gramFat = (this.oneLBPerWeekLossCalories*0.35)/9;
+	  this.gramPro = (this.oneLBPerWeekLossCalories*0.35)/4;
+	  
+	  System.out.println("\nMacronutrients\nGrams of Protein: " + this.gramPro + "\nGrams of Carbs: " + this.gramCar + "\nGrams of Fat: " + this.gramFat + "\n");
+  }
+  
+  public void setPersonMacros2() {
+	/* Defaults to setting the macros to minimal calories, lower carbs, maintainence proteins, and moderate fat.
 	 */
 	  this.gramPro = (this.lowestCalPerDay*0.35)/4;
-	  this.gramCar = (this.lowestCalPerDay*0.30)/4;
-	  this.gramFat = (this.lowestCalPerDay*0.35)/9;
+	  this.gramCar = (this.lowestCalPerDay*0.35)/4;
+	  this.gramFat = (this.lowestCalPerDay*0.30)/9;
 	  
 	  System.out.println("\nMacronutrients\nGrams of Protein: " + this.gramPro + "\nGrams of Carbs: " + this.gramCar + "\nGrams of Fat: " + this.gramFat + "\n");
 	  
@@ -170,6 +179,12 @@ public class NutritionGuide{
 	  this.gramCar = carbs;
 	  this.gramFat = fats;
 	  this.gramPro = proteins;
+	  System.out.println("\nMacronutrients\nGrams of Protein: " + this.gramPro + "\nGrams of Carbs: " + this.gramCar + "\nGrams of Fat: " + this.gramFat + "\n");
+  }
+  
+  public double[] getPersonMacros() {
+	  double[] macros = {this.gramPro, this.gramCar, this.gramFat};
+	  return macros;
   }
   
   /* Method that calculates how many pounds of weight you will lose,
@@ -184,6 +199,9 @@ public class NutritionGuide{
 	  double tempMainCal = this.maintainenceCalories;
 	  for(int i = 0; i < (30*months); i++) {
 		  double caloricDeficit = tempMainCal - this.lowestCalPerDay;
+		  
+		  System.out.println(tempMainCal);
+		  
 		  calBurned += caloricDeficit;
 		  if(calBurned >= calPerLB) {
 			  calBurned -= calPerLB;
