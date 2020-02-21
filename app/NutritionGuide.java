@@ -34,6 +34,8 @@ public class NutritionGuide{
     
     System.out.println("What sex are you (Gender)");
     this.gender = this.sc.nextLine();
+   
+    //Calculated by this intial statement and then multiplied by a constant that is determined by your activity level.
     
     this.maintainenceCalories = (weight*6.23 + heightInches*12.7 - age*6.8 + 66);
     if(activityLevel == "Sedentary"){
@@ -61,7 +63,7 @@ public class NutritionGuide{
   public double getOneLBPerWeekLossCalories(){
     return this.oneLBPerWeekLossCalories;
   }
-  
+ 
   public void setMaintainenceCalories(double weight, int age, double heightInches, String activityLevel){
     if(activityLevel == "Sedentary"){
       this.maintainenceCalories = this.maintainenceCalories * 1.2;
@@ -200,7 +202,7 @@ public class NutritionGuide{
 	  for(int i = 0; i < (30*months); i++) {
 		  double caloricDeficit = tempMainCal - this.lowestCalPerDay;
 		  
-		  System.out.println(tempMainCal);
+		  //System.out.println(tempMainCal);
 		  
 		  calBurned += caloricDeficit;
 		  if(calBurned >= calPerLB) {
